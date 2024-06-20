@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.Sidebar-Complete{
+    transition: 0.5s ease-in-out;
+    display: block;
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+}
+.Sidebar-Complete_Options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin: 20px 0px;
+
+
+    border-bottom: 1px solid black;
+}
+.Sidebar-Complete_Options_logo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Sidebar-Complete_Options_content{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+.Sidebar{
+    transition: 0.5s ease-in-out;
+    height: 100%;
+    width: 4%;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.Sidebar_Options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 20px 0px;
+    border-bottom: 1px solid black;
+    padding-left:4px ;
+}
+.NotVisible{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+@media screen and (max-width: 800px){
+    .Sidebar-Complete{
+        width: 30%;
+    }
+    .Sidebar{
+        width: 10%;
+    }
+}
