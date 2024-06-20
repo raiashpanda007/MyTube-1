@@ -14,7 +14,7 @@ const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element = {<App />}>
       <Route path='' element = {<HomeScreen />} />
-      <Route path='/MyTube-1' element = {<HomeScreen />} />
+      <Route path='/MyTube-1/' element = {<HomeScreen />} />
       <Route path='home' element = {<HomeScreen />} />
       <Route path='videoPlaying' element = {<VideoPlaying />} />
     </Route>
